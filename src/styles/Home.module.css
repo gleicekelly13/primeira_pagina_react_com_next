@@ -58,3 +58,32 @@
     align-items: center;
     gap: 30px;
 }
+
+.container_cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container_cards div {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #282c34;
+    padding: 30px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(145, 145, 145);
+}
+
+.container_cards h3 {
+    color: #edc854;
+}
+
+.container_cards p {
+    color: #fff;
+    
+}
