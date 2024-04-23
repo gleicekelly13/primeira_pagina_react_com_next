@@ -49,3 +49,12 @@
     background-color: #61dafb;
     color: #000;
 }
+
+.secao_requisitos {
+    min-height: 50vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
