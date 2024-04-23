@@ -17,13 +17,39 @@ export default function Home() {
           <p>React JS</p>
         </header>
 
-        <main className={styles.secao_titulo}>
-          <section>
+        <main className={styles.conteudo_principal}>
+          <section className={styles.secao_titulo}>
             <h1>React JS</h1>
             <p>Biblioteca JavaScript para criar SPAs</p>
             <a href='https://react.dev/' target="_blank">Site Oficial</a>
           </section>
+
+          <section className={styles.secao_requisitos}>
+            <h2>Requisitos</h2>
+            <p>Veja abaixo os requisitos mínimos para aprender React JS:</p>
+
+            <div className={styles.container_cards}>
+              <div>
+                <h3>HTML</h3>
+                <p>Aprender a estruturar os elementos da página com HTML</p>
+              </div>
+
+              <div>
+                <h3>CSS</h3>
+                <p>Aprender a estilizar os elementos da página com CSS</p>
+              </div>
+
+              <div>
+                <h3>JavaScript</h3>
+                <p>Aprender a linguagem utilizada pelo React JS, o JavaScript</p>
+              </div>
+            </div>
+          </section>
         </main>
+
+        <footer>
+          <p className={styles.rodape}>Curso de introdução de React JS</p>
+        </footer>
       </div>
     </>
   )

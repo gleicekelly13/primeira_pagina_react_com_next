@@ -9,7 +9,7 @@ SEÇÃO 1
 Requisitos
 Veja abaixo os requisitos mínimos para aprender React JS:
 
-HTML
+
 Aprender a estruturar os elementos da página com HTML
 CSS
 Aprender a estilizar os elementos da página com CSS
