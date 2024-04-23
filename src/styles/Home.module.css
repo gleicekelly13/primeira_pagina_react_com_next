@@ -87,3 +87,13 @@
     color: #fff;
     
 }
+
+.container footer {
+    min-height: 5vh;
+    background-color: #f2f3f6;
+    padding: 30px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
