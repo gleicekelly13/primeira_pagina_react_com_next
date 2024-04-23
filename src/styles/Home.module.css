@@ -16,3 +16,36 @@
 .container header p {
     font-weight: bold;
 }
+
+.conteudo_principal { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secao_titulo {
+    min-height: 30vh;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #282c34;
+}
+
+.secao_titulo h1 {
+    color: #61dafb;
+    font-size: 36px;
+}
+
+.secao_titulo p {
+    color: #fff;
+    font-size: 24px;
+}
+
+.secao_titulo a {
+    padding: 15px;
+    font-weight: 600;
+    background-color: #61dafb;
+    color: #000;
+}
