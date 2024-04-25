@@ -69,7 +69,7 @@
 }
 
 .container_cards div {
-    flex: 1 1 300px;
+    flex: 1 1 300px;  /* Define que o item pode crescer e encolher proporcionalmente com outros itens no contêiner flexível, e seu tamanho inicial é definido como 300 pixels.*/
     display: flex;
     flex-direction: column;
     gap: 20px;
