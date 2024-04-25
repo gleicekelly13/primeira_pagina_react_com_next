@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css'  //O nome da importação "styles" pode ser editado(mudado)
 
 
 export default function Home() {
